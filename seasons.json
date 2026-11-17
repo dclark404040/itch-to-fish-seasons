@@ -1,0 +1,280 @@
+{
+  "schema": 1,
+  "updated": "2026-11-12T00:00:00Z",
+  "rulesChecked": "2026-11-12",
+  "regsCheckedBy": "manual",
+  "speciesRules": {},
+  "activities": {
+    "freshwater": {
+      "year": 2026,
+      "defaultZone": "statewide",
+      "source": "https://myfwc.com/fishing/freshwater/regulations/general/",
+      "checked": "2026-11-12",
+      "zones": [
+        {
+          "id": "statewide",
+          "name": "Florida freshwater",
+          "description": "Statewide freshwater limits. Individual lakes, rivers and Fish Management Areas can have their own rules.",
+          "alwaysOpen": true,
+          "toxinAdvisory": null,
+          "notes": [
+            "The FWC statewide limits page lists no closed season for black bass. Some waters have their own limits or permits, so check FWC for the water you plan to fish."
+          ],
+          "source": "https://myfwc.com/fishing/freshwater/regulations/general/",
+          "checked": "2026-11-12"
+        }
+      ],
+      "regs": {
+        "title": "Freshwater limits",
+        "rows": [
+          { "label": "Black bass", "value": "5 per day in total, any mix of Florida, largemouth, Suwannee, spotted, Choctaw and shoal bass. Only one may be 16 inches or longer." },
+          { "label": "Largemouth", "value": "No minimum length." },
+          { "label": "Suwannee, shoal, spotted, Choctaw bass", "value": "12 inch minimum. Do not kill or possess one under 12 inches." },
+          { "label": "Crappie (speckled perch)", "value": "25 per day." },
+          { "label": "Sunfish (panfish)", "value": "50 per day in total (bluegill, redear, flier, longear and others)." },
+          { "label": "Striped, white and sunshine bass", "value": "20 per day in total, only 6 may be 24 inches or longer." },
+          { "label": "Butterfly peacock bass", "value": "2 per day, only one may be 17 inches or longer." },
+          { "label": "Catfish and other nongame fish", "value": "No bag or possession limit, except where a Fish Management Area sets one." },
+          { "label": "Grass carp, alligator gar", "value": "Release at once. You may not possess them without a permit." },
+          { "label": "Shoal bass, Chipola River", "value": "Release every shoal bass at once on the Chipola River and its tributaries." },
+          { "label": "Suwannee bass, Wakulla River", "value": "Release at once on the Wakulla River, from the headsprings to the St. Marks River." },
+          { "label": "Keeping bass whole", "value": "Black bass may not be filleted or have the head or tail fin removed until you finish fishing for the day." }
+        ],
+        "notes": [
+          "FWC states there are no new freshwater regulation changes for 2026-27.",
+          "Rules for a particular lake, river or Fish Management Area can differ. Check FWC before you keep fish.",
+          "Licence rules for borderline tidal or brackish waters are not spelled out on the FWC pages: Check FWC."
+        ],
+        "source": "https://myfwc.com/fishing/freshwater/regulations/general/",
+        "checked": "2026-11-12"
+      }
+    },
+    "shrimp": {
+      "year": 2026,
+      "defaultZone": "statewide",
+      "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+      "checked": "2026-11-12",
+      "zones": [
+        {
+          "id": "statewide",
+          "name": "Florida state waters",
+          "description": "Southeast, Southwest and most other state waters. FWC lists these regions as open year-round.",
+          "alwaysOpen": true,
+          "toxinAdvisory": null,
+          "notes": [],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "northeast",
+          "name": "Northeast inside waters",
+          "description": "Inside waters of Nassau, Duval, St. Johns, Putnam, Flagler and Clay counties.",
+          "closedRecurring": [{ "from": "04-01", "to": "05-31", "label": "Seasonal closure" }],
+          "toxinAdvisory": null,
+          "notes": ["Several northeast rivers and creeks are closed to shrimping all year. Contact FWC law enforcement for local limits."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "apalachicola",
+          "name": "Apalachicola Bay (part)",
+          "description": "The portion of Apalachicola Bay, Franklin County, that FWC lists with set closure dates.",
+          "closedRecurring": [
+            { "from": "03-01", "to": "05-31", "label": "Seasonal closure" },
+            { "from": "09-15", "to": "12-31", "label": "Seasonal closure" }
+          ],
+          "toxinAdvisory": null,
+          "notes": ["All of Apalachicola Bay and St. Vincent Sound: no harvest from sunrise to sunset, July 15 to September 14."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "big-bend",
+          "name": "Big Bend region",
+          "description": "Big Bend region state waters. The Big Bend Shrimp Closed Area (south and east of St. Marks Lighthouse, north of Bailey's Bluff at New Port Richey) allows only dip nets and cast nets.",
+          "alwaysOpen": true,
+          "toxinAdvisory": null,
+          "notes": ["Lower limit here: 2 gallons heads-on per person, 5 per vessel.", "For the exact closed-area boundary, see rule 68B-31.008, Florida Administrative Code. The FWC shrimp page still names the repealed rule 68B-31.017."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+          "checked": "2026-11-12"
+        }
+      ],
+      "regs": {
+        "title": "Shrimping rules",
+        "rows": [
+          { "label": "License", "value": "Recreational saltwater fishing license, unless exempt." },
+          { "label": "Limit", "value": "5 gallons heads-on per harvester, never more than 5 gallons per vessel. Big Bend region: 2 gallons per person, 5 per vessel." },
+          { "label": "Possession", "value": "5 gallons heads-on per vessel at any time, however many people are aboard." },
+          { "label": "Nets", "value": "No more than two nets fished from one vessel at a time." },
+          { "label": "Dip or landing net", "value": "Opening no larger than 96 inches around the perimeter." },
+          { "label": "Cast net", "value": "Stretched length no more than 14 feet." },
+          { "label": "Push net, beach seine", "value": "Push net pushed by a person wading. Haul seine up to 500 square feet, stretched mesh up to 2 inches, not monofilament." },
+          { "label": "Frame net", "value": "Opening up to 16 feet around, from a vessel or a structure other than a bridge, not monofilament, not towed, not in Miami-Dade County." },
+          { "label": "Traps", "value": "Up to four, each no larger than 36 x 24 x 12 inches." },
+          { "label": "Bait poles (cast net)", "value": "Up to five non-metal poles, set at least 10 yards apart and not within 50 yards of docks, ramps, seawalls, jetties or bridges. Daylight only." },
+          { "label": "Northeast closure", "value": "April 1 to May 31, inside waters of Nassau, Duval, St. Johns, Putnam, Flagler and Clay counties." },
+          { "label": "Apalachicola Bay", "value": "Part closed Mar 1 to May 31 and Sep 15 to Dec 31. All of the bay and St. Vincent Sound closed sunrise to sunset, Jul 15 to Sep 14." }
+        ],
+        "notes": [
+          "Rules for lights, specific rivers and bridges are not stated on the FWC page: Check FWC.",
+          "Contact your nearest FWC law enforcement office for local restrictions."
+        ],
+        "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
+        "checked": "2026-11-12"
+      }
+    },
+    "scallop": {
+      "year": 2026,
+      "defaultZone": null,
+      "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+      "checked": "2026-11-12",
+      "zones": [
+        {
+          "id": "gulf-county",
+          "name": "St. Joseph Bay and Gulf County",
+          "description": "State waters from the Mexico Beach Canal (Bay County) to the westernmost point of St. Vincent Island (Franklin County).",
+          "status": "closed_by_order",
+          "statusReason": "Closed for the 2026 season to protect scallops after a summer survey found very low abundance.",
+          "statusSince": null,
+          "statusThrough": "2026-12-31",
+          "order": "FWC Executive Order 26-28",
+          "awaitingYear": 2027,
+          "toxinAdvisory": null,
+          "notes": [],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "franklin-taylor",
+          "name": "Franklin to NW Taylor",
+          "description": "Carrabelle, Lanark, St. Marks. Westernmost point of St. Vincent Island to Rock Island near the Fenholloway River mouth.",
+          "windows": [{ "start": "2026-07-01", "end": "2026-09-24", "label": "2026 season", "confirmed": true }],
+          "awaitingYear": 2027,
+          "toxinAdvisory": null,
+          "notes": [],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "fenholloway-suwannee",
+          "name": "Fenholloway to Suwannee Rivers",
+          "description": "Keaton Beach, Steinhatchee. East of Rock Island and north of Alligator Pass daybeacon #4.",
+          "windows": [{ "start": "2026-06-15", "end": "2026-09-07", "label": "2026 season (June 15 to Labor Day)", "confirmed": true }],
+          "awaitingYear": 2027,
+          "toxinAdvisory": null,
+          "notes": ["Lower limit June 15 to 30: 1 gallon whole or 1 cup shucked per person, 5 gallons or 2 pints per vessel."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "levy-citrus-hernando",
+          "name": "Levy, Citrus and Hernando",
+          "description": "Cedar Key, Crystal River, Homosassa. South of Alligator Pass daybeacon #4 and north of the Hernando-Pasco county line.",
+          "windows": [{ "start": "2026-07-01", "end": "2026-09-24", "label": "2026 season", "confirmed": true }],
+          "awaitingYear": 2027,
+          "toxinAdvisory": null,
+          "notes": [],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "pasco",
+          "name": "Pasco Zone",
+          "description": "South of the Hernando-Pasco county line and north of Anclote Key Lighthouse (northern Pinellas), including the Anclote River.",
+          "status": "closed_by_order",
+          "statusReason": "Toxin-producing algae (Pyrodinium bahamense) found above shellfish safety thresholds.",
+          "statusSince": "2026-08-06",
+          "statusThrough": "2026-12-31",
+          "order": "FWC Executive Order 26-27",
+          "awaitingYear": 2027,
+          "toxinAdvisory": "Closed for toxin-producing algae. FWC reopens the zone only when tests show levels are safe. The area stays open for fishing, boating and swimming.",
+          "notes": ["The 2026 Pasco season opened July 10 and was set to run through August 18 (FWC news release, July 10, 2026). It closed early on August 6."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+          "checked": "2026-11-12"
+        }
+      ],
+      "regs": {
+        "title": "Scallop rules",
+        "rows": [
+          { "label": "Per person", "value": "2 gallons whole in the shell, or 1 pint of meat." },
+          { "label": "Per vessel", "value": "10 gallons whole, or 1/2 gallon (4 pints) of meat. A vessel limit never lets one person take more than the personal limit." },
+          { "label": "Fenholloway to Suwannee, June 15 to 30", "value": "1 gallon whole or 1 cup shucked per person, 5 gallons or 2 pints shucked per vessel." },
+          { "label": "Size", "value": "No minimum size." },
+          { "label": "How to take", "value": "By hand or with a landing (dip) net only. No commercial harvest." },
+          { "label": "License", "value": "Recreational saltwater license unless exempt. The no-cost shoreline license covers wading from shore only: no swimming, snorkeling or SCUBA, and no vessel." },
+          { "label": "Closed zones", "value": "You may carry legally harvested scallops through a closed area." },
+          { "label": "Shells", "value": "Do not dump shells in inshore waters used for recreation such as the Homosassa and Crystal rivers. Use a trash receptacle or larger waters." }
+        ],
+        "notes": [
+          "Zones can close by FWC order with little notice. Check FWC the morning you go.",
+          "2027 dates are not announced yet."
+        ],
+        "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
+        "checked": "2026-11-12"
+      }
+    },
+    "lobster": {
+      "year": 2026,
+      "defaultZone": "statewide",
+      "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
+      "checked": "2026-11-12",
+      "zones": [
+        {
+          "id": "statewide",
+          "name": "Florida (except Monroe County and Biscayne National Park)",
+          "description": "Regular season August 6 to March 31, plus the two-day sport season.",
+          "recurringOpen": [{ "from": "08-06", "to": "03-31", "label": "Regular season" }],
+          "windows": [
+            { "start": "2026-07-29", "end": "2026-07-30", "label": "Sport season", "kind": "sport", "confirmed": false },
+            { "start": "2027-07-28", "end": "2027-07-29", "label": "Sport season", "kind": "sport", "confirmed": true }
+          ],
+          "toxinAdvisory": null,
+          "notes": ["Daily bag: 6 per person in the regular season, 12 per person in the sport season."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
+          "checked": "2026-11-12"
+        },
+        {
+          "id": "monroe-biscayne",
+          "name": "Monroe County and Biscayne National Park",
+          "description": "Same season dates. A lower sport-season bag, and night diving is prohibited in Monroe County during the sport season.",
+          "recurringOpen": [{ "from": "08-06", "to": "03-31", "label": "Regular season" }],
+          "windows": [
+            { "start": "2026-07-29", "end": "2026-07-30", "label": "Sport season", "kind": "sport", "confirmed": false },
+            { "start": "2027-07-28", "end": "2027-07-29", "label": "Sport season", "kind": "sport", "confirmed": true }
+          ],
+          "toxinAdvisory": null,
+          "notes": ["Daily bag: 6 per person in both the regular and the sport season.", "John Pennekamp Coral Reef State Park is closed to harvest during the sport season."],
+          "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
+          "checked": "2026-11-12"
+        }
+      ],
+      "regs": {
+        "title": "Lobster rules",
+        "rows": [
+          { "label": "Regular season", "value": "August 6 to March 31. 6 per person per day." },
+          { "label": "Sport season", "value": "Last consecutive Wednesday and Thursday of July: July 28 and 29, 2027. 12 per person per day, but 6 per person in Monroe County and Biscayne National Park." },
+          { "label": "Possession", "value": "On the water: the daily bag. Off the water in the sport season: one day's bag on day one, double on day two. Limits are enforced on and off the water." },
+          { "label": "Size", "value": "Carapace longer than 3 inches, measured in the water. Carry and use a measuring device at all times." },
+          { "label": "Egg-bearing", "value": "Egg-bearing spiny, slipper and furry lobsters may not be taken or kept." },
+          { "label": "Whole only", "value": "Land lobster whole. Separating the tail from the body is prohibited in state waters." },
+          { "label": "License and permit", "value": "Recreational saltwater license and a lobster permit, unless exempt." },
+          { "label": "Allowed gear", "value": "Landing or dip net, bully net up to 3 feet across, hoop net up to 10 feet across." },
+          { "label": "Not allowed", "value": "Any device that could puncture, penetrate or crush the lobster, bleach or other chemicals, artificial habitat, and traps." },
+          { "label": "Night diving", "value": "Prohibited in Monroe County during the sport season only." },
+          { "label": "No harvest, all year", "value": "Everglades National Park, Dry Tortugas National Park, no-take areas of the Florida Keys National Marine Sanctuary, Biscayne Bay/Card Sound Lobster Sanctuary, and the five Coral Reef Protection Areas in Biscayne National Park." },
+          { "label": "No harvest, sport season", "value": "John Pennekamp Coral Reef State Park." }
+        ],
+        "notes": [
+          "Bag limits count only licensed people who are harvesting.",
+          "The FWC lobster page does not mention a dive flag. Florida law requires a divers-down flag for divers and snorkelers (Florida Statute 327.331).",
+          "Local rules in the Keys can add to these: Check FWC."
+        ],
+        "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
+        "checked": "2026-11-12"
+      }
+    }
+  },
+  "banners": [
+    { "id": "scallop-2027-pending", "activity": "scallop", "text": "2027 scallop dates are not announced yet.", "until": "2027-05-31" }
+  ]
+}
