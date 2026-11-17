@@ -1,9 +1,243 @@
 {
   "schema": 1,
-  "updated": "2026-11-17T07:35:27Z",
+  "updated": "2026-11-17T08:35:00Z",
   "rulesChecked": "2026-11-17",
   "regsCheckedBy": "seasons-check",
   "speciesRules": {},
+  "speciesZones": {
+    "spotted-seatrout": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/spotted-seatrout/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "panhandle",
+          "name": "Panhandle region",
+          "description": "Florida-Alabama line east to Alligator Point (84°20.8′ W) in Franklin County; not Ochlockonee Bay or River.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola"
+          ],
+          "regions": [
+            "panhandle"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [
+              {
+                "from": "02-01",
+                "to": "02-28"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed in February; open March 1 to January 31. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag."
+          }
+        },
+        {
+          "id": "big-bend",
+          "name": "Big Bend region",
+          "description": "East of Alligator Point to the Fred Howard Park Causeway in Pinellas County, including Ochlockonee Bay and the Ochlockonee, Withlacoochee and Anclote rivers.",
+          "places": [
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote"
+          ],
+          "regions": [
+            "big-bend"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 5,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 5 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag."
+          }
+        },
+        {
+          "id": "tampa-bay",
+          "name": "Tampa Bay region",
+          "description": "South of the Fred Howard Park Causeway to the western end of State Road 64 in Manatee County, including all of Hillsborough County; not Palma Sola Bay or the Anclote River.",
+          "places": [
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria"
+          ],
+          "regions": [
+            "tampa-bay"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag."
+          }
+        },
+        {
+          "id": "sarasota-bay",
+          "name": "Sarasota Bay region",
+          "description": "South of the Tampa Bay region to 27°04.727′ N in Sarasota County, including Palma Sola Bay.",
+          "places": [
+            "sarasota"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag."
+          }
+        },
+        {
+          "id": "charlotte-harbor",
+          "name": "Charlotte Harbor region",
+          "description": "South of the Sarasota Bay region to 26°15.2′ N in Collier County, including the Caloosahatchee, Myakka and Peace rivers.",
+          "places": [
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach"
+          ],
+          "regions": [
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag."
+          }
+        },
+        {
+          "id": "southwest",
+          "name": "Southwest region",
+          "description": "South of the Charlotte Harbor region: southern Collier County, all of Monroe County (the Keys, Florida Bay) and Everglades National Park.",
+          "places": [
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west"
+          ],
+          "regions": [
+            "keys"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag. Special rules apply in Biscayne National Park."
+          }
+        },
+        {
+          "id": "southeast",
+          "name": "Southeast region",
+          "description": "South of the Martin-Palm Beach county line to the Miami-Dade/Monroe line, including the Loxahatchee River; not Everglades National Park.",
+          "places": [
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter"
+          ],
+          "regions": [
+            "se-florida"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Each vessel may possess one fish over 19 in (per person if fishing from shore), counted in the bag. Special rules apply in Biscayne National Park."
+          }
+        },
+        {
+          "id": "indian-river",
+          "name": "Indian River Lagoon region",
+          "description": "South of 29°01.8′ N in Volusia County (inside waters south of Lytle Avenue/South Causeway; Volusia south of State Road 44 and east of I-95) to the Martin-Palm Beach county line; not the St. Johns River or Loxahatchee River.",
+          "places": [
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 2,
+            "closed": [
+              {
+                "from": "11-01",
+                "to": "12-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed November 1 to December 31; open January 1 to October 31. 2 per person per day, 15 to 19 in total length. Possessing a fish over 19 in is not allowed."
+          }
+        },
+        {
+          "id": "northeast",
+          "name": "Northeast region",
+          "description": "Florida-Georgia line south to the Indian River Lagoon region, including the St. Johns River system.",
+          "places": [
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "ne-florida"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": 19,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Possessing a fish over 19 in is not allowed."
+          }
+        }
+      ]
+    }
+  },
   "activities": {
     "freshwater": {
       "year": 2026,
@@ -499,6 +733,15 @@
       "activity": "scallop",
       "text": "2027 scallop dates are not announced yet.",
       "until": "2027-05-31"
+    },
+    {
+      "id": "legacy-seatrout-regions",
+      "activity": "saltwater",
+      "speciesIds": [
+        "spotted-seatrout"
+      ],
+      "text": "Spotted seatrout rules differ by region (FWC, since April 1, 2026). Indian River Lagoon region: closed November 1 to December 31, 2 fish. Panhandle: closed in February. Big Bend: 5 fish. Rest of the state 3 fish. The rule shown here is for Tampa Bay; check your region on MyFWC.com.",
+      "until": "2027-12-31"
     }
   ]
 }
