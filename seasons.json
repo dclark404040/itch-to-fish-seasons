@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-17T08:35:00Z",
+  "updated": "2026-11-17T08:47:37Z",
   "rulesChecked": "2026-11-17",
   "regsCheckedBy": "seasons-check",
   "speciesRules": {},
@@ -144,7 +144,8 @@
             "islamorada",
             "marathon",
             "big-pine",
-            "key-west"
+            "key-west",
+            "npl25"
           ],
           "regions": [
             "keys"
@@ -192,7 +193,9 @@
             "fort-pierce",
             "sebastian",
             "cocoa-beach",
-            "mosquito-lagoon"
+            "mosquito-lagoon",
+            "ftp25",
+            "cnv25"
           ],
           "regions": [],
           "regs": {
@@ -233,6 +236,2072 @@
             "open": null,
             "prohibited": false,
             "notes": "Open year-round. 3 per person per day, 15 to 19 in total length. Possessing a fish over 19 in is not allowed."
+          }
+        }
+      ]
+    },
+    "red-snapper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/snappers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 16,
+            "maxIn": null,
+            "bag": 2,
+            "closed": [],
+            "open": [
+              {
+                "from": "2026-05-22",
+                "to": "2026-07-31"
+              },
+              {
+                "from": "2026-09-01",
+                "to": "2026-10-04"
+              },
+              {
+                "from": "2026-10-09",
+                "to": "2026-10-22"
+              },
+              {
+                "from": "2026-10-23",
+                "to": "2026-10-25"
+              },
+              {
+                "from": "2026-10-30",
+                "to": "2026-11-01"
+              },
+              {
+                "from": "2026-11-07",
+                "to": "2026-11-08"
+              },
+              {
+                "from": "2026-11-14",
+                "to": "2026-11-15"
+              },
+              {
+                "from": "2026-11-21",
+                "to": "2026-11-22"
+              },
+              {
+                "from": "2026-11-26",
+                "to": "2026-11-29"
+              },
+              {
+                "from": "2026-12-05",
+                "to": "2026-12-06"
+              },
+              {
+                "from": "2026-12-12",
+                "to": "2026-12-13"
+              },
+              {
+                "from": "2026-12-19",
+                "to": "2026-12-20"
+              },
+              {
+                "from": "2026-12-25",
+                "to": "2026-12-27"
+              },
+              {
+                "from": "2027-01-01",
+                "to": "2027-01-04"
+              }
+            ],
+            "prohibited": false,
+            "notes": "Gulf state and federal waters, private vessels (Gulf state waters run to 9 miles). 2 per person, 16 in total length, in the 10-fish snapper aggregate. Charter captain and crew: zero. Open only on the 2026 dates listed."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [],
+            "open": [
+              {
+                "from": "2026-10-09",
+                "to": "2026-10-22"
+              }
+            ],
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: closed. The 2026 Exempted Fishing Permit season ran Oct. 9 to 22 and is over (1 per person, no minimum size, no retention by for-hire captain or crew, 10-fish snapper-grouper aggregate). FWC lists red snapper as closed in Atlantic state and federal waters; check the Atlantic red snapper page for any future season."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "gag-grouper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 2,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "08-31"
+              },
+              {
+                "from": "10-01",
+                "to": "12-31"
+              }
+            ],
+            "open": [
+              {
+                "from": "2026-09-01",
+                "to": "2026-09-30"
+              }
+            ],
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: open Sept. 1 to 30, 2026 (FWC executive order), closed Oct. 1 for the rest of the year. 24 in total length, 2 per person within the 4-grouper aggregate; charter captain and crew: zero."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [],
+            "open": [
+              {
+                "from": "2026-05-01",
+                "to": "2026-08-01"
+              }
+            ],
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Aug. 1, 2026 (FWC groupers page), then closed. 24 in total length. 1 gag or black grouper per person within the 3-grouper aggregate, and a combined 2 gag or black grouper per vessel per day (from Oct. 28, 2026). For-hire captain and crew retention is prohibited."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "black-grouper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 4,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: open year-round in state waters; federal waters are closed Feb. 1 to March 31 seaward of 20 fathoms. 24 in total length, up to 4 per person within the 4-grouper aggregate; charter captain and crew: zero in state waters."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Dec. 31, closed Jan. 1 to April 30. 24 in total length. 1 gag or black grouper per person within the 3-grouper aggregate, combined 2 gag or black per vessel per day (from Oct. 28, 2026). For-hire captain and crew retention is prohibited."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "red-grouper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 20,
+            "maxIn": null,
+            "bag": 2,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: 20 in total length, 2 per person within the 4-grouper aggregate; federal waters closed Feb. 1 to March 31 seaward of 20 fathoms; state charter captain and crew: zero."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 20,
+            "maxIn": null,
+            "bag": 3,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Dec. 31, closed Jan. 1 to April 30. 20 in total length, up to 3 per person within the 3-grouper aggregate. Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "scamp": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 16,
+            "maxIn": null,
+            "bag": 4,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: 16 in total length, up to 4 per person within the 4-grouper aggregate; federal waters closed Feb. 1 to March 31 seaward of 20 fathoms."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 20,
+            "maxIn": null,
+            "bag": 3,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Dec. 31, closed Jan. 1 to April 30. 20 in total length, up to 3 per person within the 3-grouper aggregate."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "red-hind": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 4,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: no minimum size, up to 4 per person within the 4-grouper aggregate, open year-round."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 3,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Dec. 31, closed Jan. 1 to April 30. No minimum size, up to 3 per person within the 3-grouper aggregate. Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "rock-hind": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/groupers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 4,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (not Monroe County) and Gulf federal waters: no minimum size, up to 4 per person within the 4-grouper aggregate, open year-round."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC groupers page: all state waters off Monroe County, Atlantic and Gulf sides, follow the Atlantic rules. The Dry Tortugas point (federal Gulf water) follows the Gulf rules.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 3,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters, including all state waters of Monroe County: open May 1 to Dec. 31, closed Jan. 1 to April 30. No minimum size, up to 3 per person within the 3-grouper aggregate. Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "hogfish": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/hogfish/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC hogfish page: Atlantic means all state and federal waters south of Cape Sable, including the Florida Keys.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 14,
+            "maxIn": null,
+            "bag": 5,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf waters north of Cape Sable: 14 in fork length, 5 per harvester, open year-round (state and federal)."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC hogfish page: Atlantic means all state and federal waters south of Cape Sable, including the Florida Keys.",
+          "places": [
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 16,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "11-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic: all state and federal waters south of Cape Sable, including the whole Florida Keys. Open May 1 to Oct. 31, closed Nov. 1 to April 30. 16 in fork length, 1 per harvester. Special rules apply in Biscayne National Park."
+          }
+        }
+      ]
+    },
+    "gray-triggerfish": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/triggerfish/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 15,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "02-28"
+              },
+              {
+                "from": "06-01",
+                "to": "07-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state and federal waters: 15 in fork length, 1 per person, open March 1 to May 31 and Aug. 1 to Dec. 31."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 12,
+            "maxIn": null,
+            "bag": 10,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: 12 in fork length, up to 10 per person, open year-round (federal: within the 20-fish snapper-grouper aggregate). Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "greater-amberjack": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/amberjack/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 34,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "01-01",
+                "to": "08-31"
+              },
+              {
+                "from": "10-14",
+                "to": "12-31"
+              }
+            ],
+            "open": [
+              {
+                "from": "2026-09-01",
+                "to": "2026-10-13"
+              }
+            ],
+            "prohibited": false,
+            "notes": "Gulf state and federal waters: 34 in fork length, 1 per person, open Sept. 1 to Oct. 13, 2026 only (FWC executive order)."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": null,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "04-01",
+                "to": "04-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: 28 in fork length, 1 per person, open January to March and May to December, closed April. Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "vermilion-snapper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/snappers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 10,
+            "maxIn": null,
+            "bag": 10,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf: 10 in total length. State waters: 10 per person (outside the snapper aggregate); federal: 10 per person within the 20-fish reef fish aggregate. Open year-round."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 12,
+            "maxIn": null,
+            "bag": 5,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: 12 in total length, 5 per person (outside the snapper aggregate), open year-round."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "lane-snapper": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/snappers/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 10,
+            "maxIn": null,
+            "bag": 20,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters (from April 1, 2026): 10 in total length, 20 per person outside the 10-fish snapper aggregate. Federal Gulf waters: 8 in, 20 within the 20-fish reef fish aggregate."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 8,
+            "maxIn": null,
+            "bag": 10,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: 8 in total length, 10 per person within the 10-fish snapper aggregate, open year-round. Special rules apply in Biscayne National Park."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "black-sea-bass": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/black-sea-bass/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "tortugas"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 10,
+            "maxIn": null,
+            "bag": null,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters: 10 in total length, 100 pounds per person."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC reef fish line (68B-14.002): US-1 and 24 deg 35 min N. Atlantic Ocean is the water south and east of it. Here Flamingo (Florida Bay) and the Dry Tortugas are Gulf, the other Keys places Atlantic.",
+          "places": [
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 13,
+            "maxIn": null,
+            "bag": 7,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state and federal waters: 13 in total length, 7 per person."
+          },
+          "regsFed": "same"
+        }
+      ]
+    },
+    "king-mackerel": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/king-mackerel/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "gulf",
+          "name": "Gulf coast",
+          "description": "Gulf of America state and federal waters from the Alabama line to the Florida Keys. FWC king mackerel page: Gulf rules apply in Gulf state waters and Monroe County; Atlantic state waters exclude Monroe County.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola",
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote",
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria",
+            "sarasota",
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach",
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west"
+          ],
+          "regions": [
+            "panhandle",
+            "big-bend",
+            "tampa-bay",
+            "sw-florida",
+            "keys"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 3,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Gulf state waters and Monroe County: 24 in fork length, 3 per harvester, open year-round."
+          }
+        },
+        {
+          "id": "atlantic",
+          "name": "Atlantic coast",
+          "description": "Atlantic state and federal waters from the Georgia line south. FWC king mackerel page: Gulf rules apply in Gulf state waters and Monroe County; Atlantic state waters exclude Monroe County.",
+          "places": [
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter",
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "se-florida",
+            "ne-florida"
+          ],
+          "regs": {
+            "minIn": 24,
+            "maxIn": null,
+            "bag": 2,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "Atlantic state waters (excluding Monroe County): 24 in fork length, 2 per harvester, open year-round."
+          }
+        }
+      ]
+    },
+    "snook": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/snook/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "panhandle",
+          "name": "Panhandle region",
+          "description": "Florida-Alabama line east to Alligator Point (84°20.8′ W) in Franklin County; not Ochlockonee Bay or River.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola"
+          ],
+          "regions": [
+            "panhandle"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to August 31. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "big-bend",
+          "name": "Big Bend region",
+          "description": "East of Alligator Point to the Fred Howard Park Causeway in Pinellas County, including Ochlockonee Bay and the Ochlockonee, Withlacoochee and Anclote rivers.",
+          "places": [
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote"
+          ],
+          "regions": [
+            "big-bend"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to August 31. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "tampa-bay",
+          "name": "Tampa Bay region",
+          "description": "South of the Fred Howard Park Causeway to the western end of State Road 64 in Manatee County, including all of Hillsborough County; not Palma Sola Bay or the Anclote River.",
+          "places": [
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria"
+          ],
+          "regions": [
+            "tampa-bay"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to August 31. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "sarasota-bay",
+          "name": "Sarasota Bay region",
+          "description": "South of the Tampa Bay region to 27°04.727′ N in Sarasota County, including Palma Sola Bay.",
+          "places": [
+            "sarasota"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to August 31. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "charlotte-harbor",
+          "name": "Charlotte Harbor region",
+          "description": "South of the Sarasota Bay region to 26°15.2′ N in Collier County, including the Caloosahatchee, Myakka and Peace rivers.",
+          "places": [
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach"
+          ],
+          "regions": [
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to September 30. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "southwest",
+          "name": "Southwest region",
+          "description": "South of the Charlotte Harbor region: southern Collier County, all of Monroe County (the Keys, Florida Bay) and Everglades National Park.",
+          "places": [
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "npl25"
+          ],
+          "regions": [
+            "keys"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 33,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-01",
+                "to": "02-28"
+              },
+              {
+                "from": "05-01",
+                "to": "09-30"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 1 to the end of February and May 1 to September 30. This region runs through the Florida Keys to the Monroe/Miami-Dade line. 1 per person per day, 28 inches or longer and no more than 33 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "southeast",
+          "name": "Southeast region",
+          "description": "South of the Martin-Palm Beach county line to the Miami-Dade/Monroe line, including the Loxahatchee River; not Everglades National Park.",
+          "places": [
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter"
+          ],
+          "regions": [
+            "se-florida"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 32,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-15",
+                "to": "01-31"
+              },
+              {
+                "from": "06-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 15 to January 31 and June 1 to August 31. 1 per person per day, 28 inches or longer and no more than 32 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "indian-river",
+          "name": "Indian River Lagoon region",
+          "description": "South of 29°01.8′ N in Volusia County (inside waters south of Lytle Avenue/South Causeway; Volusia south of State Road 44 and east of I-95) to the Martin-Palm Beach county line; not the St. Johns River or Loxahatchee River.",
+          "places": [
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ftp25",
+            "cnv25"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 32,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-15",
+                "to": "01-31"
+              },
+              {
+                "from": "06-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 15 to January 31 and June 1 to August 31. 1 per person per day, 28 inches or longer and no more than 32 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        },
+        {
+          "id": "northeast",
+          "name": "Northeast region",
+          "description": "Florida-Georgia line south to the Indian River Lagoon region, including the St. Johns River system.",
+          "places": [
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "ne-florida"
+          ],
+          "regs": {
+            "minIn": 28,
+            "maxIn": 32,
+            "bag": 1,
+            "closed": [
+              {
+                "from": "12-15",
+                "to": "01-31"
+              },
+              {
+                "from": "06-01",
+                "to": "08-31"
+              }
+            ],
+            "open": null,
+            "prohibited": false,
+            "notes": "Closed December 15 to January 31 and June 1 to August 31. 1 per person per day, 28 inches or longer and no more than 32 in total length. For-hire captain and crew may not retain a bag limit. Snook permit required."
+          }
+        }
+      ]
+    },
+    "redfish": {
+      "source": "https://myfwc.com/fishing/saltwater/recreational/red-drum/",
+      "checked": "2026-11-17",
+      "zones": [
+        {
+          "id": "panhandle",
+          "name": "Panhandle region",
+          "description": "Florida-Alabama line east to Alligator Point (84°20.8′ W) in Franklin County; not Ochlockonee Bay or River.",
+          "places": [
+            "pensacola",
+            "navarre",
+            "destin",
+            "panama-city",
+            "mexico-beach",
+            "apalachicola"
+          ],
+          "regions": [
+            "panhandle"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "4-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
+          }
+        },
+        {
+          "id": "big-bend",
+          "name": "Big Bend region",
+          "description": "East of Alligator Point to the Fred Howard Park Causeway in Pinellas County, including Ochlockonee Bay and the Ochlockonee, Withlacoochee and Anclote rivers.",
+          "places": [
+            "st-marks",
+            "keaton-beach",
+            "cedar-key",
+            "crystal-river",
+            "hernando-beach",
+            "anclote"
+          ],
+          "regions": [
+            "big-bend"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "4-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
+          }
+        },
+        {
+          "id": "tampa-bay",
+          "name": "Tampa Bay region",
+          "description": "South of the Fred Howard Park Causeway to the western end of State Road 64 in Manatee County, including all of Hillsborough County; not Palma Sola Bay or the Anclote River.",
+          "places": [
+            "clearwater",
+            "old-tampa-bay",
+            "johns-pass",
+            "hillsborough-bay",
+            "skyway",
+            "fort-desoto",
+            "anna-maria"
+          ],
+          "regions": [
+            "tampa-bay"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "2-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
+          }
+        },
+        {
+          "id": "sarasota-bay",
+          "name": "Sarasota Bay region",
+          "description": "South of the Tampa Bay region to 27°04.727′ N in Sarasota County, including Palma Sola Bay.",
+          "places": [
+            "sarasota"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "2-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
+          }
+        },
+        {
+          "id": "charlotte-harbor",
+          "name": "Charlotte Harbor region",
+          "description": "South of the Sarasota Bay region to 26°15.2′ N in Collier County, including the Caloosahatchee, Myakka and Peace rivers.",
+          "places": [
+            "venice",
+            "boca-grande",
+            "pine-island",
+            "fort-myers-beach"
+          ],
+          "regions": [
+            "sw-florida"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "2-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
+          }
+        },
+        {
+          "id": "southwest",
+          "name": "Southwest region",
+          "description": "South of the Charlotte Harbor region: southern Collier County, all of Monroe County (the Keys, Florida Bay) and Everglades National Park.",
+          "places": [
+            "naples",
+            "marco-island",
+            "everglades-city",
+            "flamingo",
+            "key-largo",
+            "islamorada",
+            "marathon",
+            "big-pine",
+            "key-west",
+            "npl25"
+          ],
+          "regions": [
+            "keys"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "2-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round. This region runs around the Florida Keys to the Monroe/Miami-Dade line."
+          }
+        },
+        {
+          "id": "southeast",
+          "name": "Southeast region",
+          "description": "South of the Martin-Palm Beach county line to the Miami-Dade/Monroe line, including the Loxahatchee River; not Everglades National Park.",
+          "places": [
+            "biscayne-bay",
+            "fort-lauderdale",
+            "boca-raton",
+            "palm-beach",
+            "jupiter"
+          ],
+          "regions": [
+            "se-florida"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "2-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round. Special rules apply in Biscayne National Park."
+          }
+        },
+        {
+          "id": "indian-river",
+          "name": "Indian River Lagoon region",
+          "description": "South of 29°01.8′ N in Volusia County (inside waters south of Lytle Avenue/South Causeway; Volusia south of State Road 44 and east of I-95) to the Martin-Palm Beach county line; not the St. Johns River or Loxahatchee River.",
+          "places": [
+            "stuart",
+            "fort-pierce",
+            "sebastian",
+            "cocoa-beach",
+            "mosquito-lagoon",
+            "ftp25",
+            "cnv25"
+          ],
+          "regions": [],
+          "regs": {
+            "minIn": null,
+            "maxIn": null,
+            "bag": 0,
+            "closed": [],
+            "open": null,
+            "prohibited": true,
+            "notes": "Catch and release only in the Indian River Lagoon region (Lytle Avenue/South Causeway in New Smyrna Beach south to the Martin-Palm Beach county line)."
+          }
+        },
+        {
+          "id": "northeast",
+          "name": "Northeast region",
+          "description": "Florida-Georgia line south to the Indian River Lagoon region, including the St. Johns River system.",
+          "places": [
+            "ponce-inlet",
+            "daytona",
+            "matanzas",
+            "st-augustine",
+            "mayport",
+            "fernandina"
+          ],
+          "regions": [
+            "ne-florida"
+          ],
+          "regs": {
+            "minIn": 18,
+            "maxIn": 27,
+            "bag": 1,
+            "closed": [],
+            "open": null,
+            "prohibited": false,
+            "notes": "4-fish vessel limit. For-hire captain and crew may not retain a bag limit. 1 per person per day, 18 to 27 in total length, open year-round."
           }
         }
       ]
@@ -741,6 +2810,150 @@
         "spotted-seatrout"
       ],
       "text": "Spotted seatrout rules differ by region (FWC, since April 1, 2026). Indian River Lagoon region: closed November 1 to December 31, 2 fish. Panhandle: closed in February. Big Bend: 5 fish. Rest of the state 3 fish. The rule shown here is for Tampa Bay; check your region on MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-red-snapper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "red-snapper"
+      ],
+      "text": "Red snapper dates differ by coast (FWC). The dates shown are for the Gulf. Atlantic (east coast and Keys Atlantic side): closed now, the 2026 season Oct. 9 to 22 is over. Check MyFWC.com if you fish the Atlantic.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-gag-grouper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "gag-grouper"
+      ],
+      "text": "Gag grouper rules differ by coast (FWC). The dates shown are for the Gulf (open Sept. 1-30, 2026). Atlantic and the Keys: 1 gag or black per person, combined 2 per vessel, no for-hire crew bag, 2026 season May 1 to Aug. 1 (over). Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-black-grouper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "black-grouper"
+      ],
+      "text": "Black grouper rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic and the Keys: closed Jan. 1 to April 30, 1 gag or black per person, combined 2 per vessel, no for-hire crew bag. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-red-grouper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "red-grouper"
+      ],
+      "text": "Red grouper rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic and the Keys: closed Jan. 1 to April 30, up to 3 per person within the 3-grouper aggregate. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-scamp-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "scamp"
+      ],
+      "text": "Scamp rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic and the Keys: 20 in, closed Jan. 1 to April 30, up to 3 per person within the 3-grouper aggregate. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-red-hind-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "red-hind"
+      ],
+      "text": "Red hind rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic and the Keys: closed Jan. 1 to April 30, up to 3 per person within the 3-grouper aggregate. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-rock-hind-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "rock-hind"
+      ],
+      "text": "Rock hind rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic and the Keys: closed Jan. 1 to April 30, up to 3 per person within the 3-grouper aggregate. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-hogfish-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "hogfish"
+      ],
+      "text": "Hogfish rules differ by coast (FWC). The rule shown is for the Gulf. South of Cape Sable (the Keys) and the Atlantic coast: 16 in, 1 fish, open May 1 to Oct. 31 only. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-gray-triggerfish-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "gray-triggerfish"
+      ],
+      "text": "Gray triggerfish rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic: 12 in, up to 10 per person, open all year. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-greater-amberjack-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "greater-amberjack"
+      ],
+      "text": "Greater amberjack rules differ by coast (FWC). The dates shown are for the Gulf (open Sept. 1 to Oct. 13, 2026). Atlantic: 28 in, 1 fish, closed April only. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-vermilion-snapper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "vermilion-snapper"
+      ],
+      "text": "Vermilion snapper rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic: 12 in, 5 per person. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-lane-snapper-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "lane-snapper"
+      ],
+      "text": "Lane snapper rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic: 8 in, 10 per person within the snapper aggregate. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-black-sea-bass-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "black-sea-bass"
+      ],
+      "text": "Black sea bass rules differ by coast (FWC). The rule shown is for the Gulf. Atlantic: 13 in, 7 per person. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-king-mackerel-coasts",
+      "activity": "saltwater",
+      "speciesIds": [
+        "king-mackerel"
+      ],
+      "text": "King mackerel bag limits differ by coast (FWC). The rule shown (3 per person) is for the Gulf and the Keys. Atlantic state waters north of Monroe County: 2 per person. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-snook-regions",
+      "activity": "saltwater",
+      "speciesIds": [
+        "snook"
+      ],
+      "text": "Snook seasons differ by FWC region. The rule shown is for the Tampa Bay region (closed Dec. 1 to end of Feb. and May 1 to Aug. 31, 28 to 33 in). Atlantic coast (Southeast, Indian River, Northeast): closed Dec. 15 to Jan. 31 and June 1 to Aug. 31, 28 to 32 in. Southwest and Charlotte Harbor: closed May 1 to Sept. 30. Check MyFWC.com.",
+      "until": "2027-12-31"
+    },
+    {
+      "id": "legacy-redfish-regions",
+      "activity": "saltwater",
+      "speciesIds": [
+        "redfish"
+      ],
+      "text": "Redfish rules differ by FWC region. The rule shown is for the Tampa Bay region (1 fish, 18 to 27 in, 2-fish vessel limit). Indian River Lagoon (Sebastian to Stuart): catch and release only. Panhandle, Big Bend and Northeast: 4-fish vessel limit. Check MyFWC.com.",
       "until": "2027-12-31"
     }
   ]
