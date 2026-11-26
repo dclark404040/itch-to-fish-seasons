@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "updated": "2026-11-25T11:24:31Z",
-  "rulesChecked": "2026-11-25",
+  "updated": "2026-11-26T11:23:21Z",
+  "rulesChecked": "2026-11-26",
   "regsCheckedBy": "seasons-check",
   "speciesRules": {},
   "speciesZones": {
@@ -2382,7 +2382,7 @@
           "toxinAdvisory": null,
           "notes": [],
           "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "northeast",
@@ -2400,7 +2400,7 @@
             "Several northeast rivers and creeks are closed to shrimping all year. Contact FWC law enforcement for local limits."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "apalachicola",
@@ -2423,7 +2423,7 @@
             "All of Apalachicola Bay and St. Vincent Sound: no harvest from sunrise to sunset, July 15 to September 14."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/shrimp/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "big-bend",
@@ -2518,7 +2518,7 @@
           "toxinAdvisory": null,
           "notes": [],
           "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "franklin-taylor",
@@ -2536,7 +2536,7 @@
           "toxinAdvisory": null,
           "notes": [],
           "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "fenholloway-suwannee",
@@ -2556,7 +2556,7 @@
             "Lower limit June 15 to 30: 1 gallon whole or 1 cup shucked per person, 5 gallons or 2 pints per vessel."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "levy-citrus-hernando",
@@ -2574,7 +2574,7 @@
           "toxinAdvisory": null,
           "notes": [],
           "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "pasco",
@@ -2591,7 +2591,7 @@
             "The 2026 Pasco season opened July 10 and was set to run through August 18 (FWC news release, July 10, 2026). It closed early on August 6."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/bay-scallops/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         }
       ],
       "regs": {
@@ -2676,7 +2676,7 @@
             "Daily bag: 6 per person in the regular season, 12 per person in the sport season."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         },
         {
           "id": "monroe-biscayne",
@@ -2711,7 +2711,7 @@
             "John Pennekamp Coral Reef State Park is closed to harvest during the sport season."
           ],
           "source": "https://myfwc.com/fishing/saltwater/recreational/lobster/",
-          "checked": "2026-11-25"
+          "checked": "2026-11-26"
         }
       ],
       "regs": {
